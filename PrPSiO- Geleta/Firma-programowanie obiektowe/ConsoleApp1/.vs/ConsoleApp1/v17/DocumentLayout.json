@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\4d1\\source\\repos\\szkola\\prpsio- geleta\\firma-programowanie obiektowe\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\4d1\\source\\repos\\szkola\\prpsio- geleta\\firma-programowanie obiektowe\\consoleapp1\\consoleapp1\\stanowisko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\stanowisko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\4d1\\source\\repos\\szkola\\prpsio- geleta\\firma-programowanie obiektowe\\consoleapp1\\consoleapp1\\firma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\firma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\4d1\\source\\repos\\szkola\\prpsio- geleta\\firma-programowanie obiektowe\\consoleapp1\\consoleapp1\\pracownik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C809CEB-AF58-46B8-88C8-25939F861D86}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\pracownik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Funkcje-pierwsze zadanie\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Firma.cs",
+              "DocumentMoniker": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Firma.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Firma.cs",
+              "ToolTip": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Firma.cs",
+              "RelativeToolTip": "ConsoleApp1\\Firma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:35:48.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pracownik.cs",
+              "DocumentMoniker": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Pracownik.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Pracownik.cs",
+              "ToolTip": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Pracownik.cs",
+              "RelativeToolTip": "ConsoleApp1\\Pracownik.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCkAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:35:10.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stanowisko.cs",
+              "DocumentMoniker": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Stanowisko.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Stanowisko.cs",
+              "ToolTip": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Stanowisko.cs",
+              "RelativeToolTip": "ConsoleApp1\\Stanowisko.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:34:55.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Funkcje-pierwsze zadanie\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Funkcje-pierwsze zadanie\\Program.cs",
+              "ToolTip": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Funkcje-pierwsze zadanie\\Program.cs",
+              "RelativeToolTip": "..\\..\\Funkcje-pierwsze zadanie\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:34:50.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\4d1\\source\\repos\\Szkola\\PrPSiO- Geleta\\Firma-programowanie obiektowe\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:31:18.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
