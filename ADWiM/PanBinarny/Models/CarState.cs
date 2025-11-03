@@ -12,12 +12,17 @@ namespace PanBinarny.Models
         public FuelState Fuel { get; init; }
         public List<Trip> Trips { get; init; }
 
+        public int onlyLPGDays { get; private set; }
+
         private int TripIndex=0;
+
+        public string dayWhenLPGWasBelow525 { get; private set; }
 
         public CarState()
         {
             Trips = new List<Trip>();
             Fuel = new FuelState();
+            dayWhenLPGWasBelow525 = "";
             string path = @".\lpg.txt";
 
             try
@@ -43,11 +48,23 @@ namespace PanBinarny.Models
 
         public bool Drive()
         {
+
             if (TripIndex >= Trips.Count)
                 return false;
+            Trip Trip = Trips[TripIndex];
+            if (dayWhenLPGWasBelow525 == "")
+            {
+                if (Fuel.LevelLPG < 5.25)
+                {
+                    dayWhenLPGWasBelow525 = Trip.Date.ToString();
+                }
+            }
+
             Fuel.Display();
-            Fuel.CombustFuel(Trips[TripIndex].Distance);
-            Fuel.TankFuel(Trips[TripIndex].Date);
+            Fuel.CombustFuel(Trip.Distance);
+            Fuel.TankFuel(Trip.Date);
+            if (Fuel.onlyLPG)
+                onlyLPGDays++;
 
             TripIndex++;
             return true;
