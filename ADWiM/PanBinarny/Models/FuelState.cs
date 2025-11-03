@@ -34,10 +34,10 @@ namespace PanBinarny.Models
 
             CombustLPG = 9;
             CombustPb95 = 6;
-            TankedLitersLPG = 0;
-            TankedLitersPb95 = 0;
+            TankedLitersLPG = maxLPG;
+            TankedLitersPb95 = maxPb95;
             TankedLPG = 0;
-            TankedLitersPb95 = 0;
+            TankedPb95 = 0;
             onlyLPG = false;
         }
 
