@@ -1,0 +1,14 @@
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\bin\Debug\net8.0\PanBinarny.exe
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\bin\Debug\net8.0\PanBinarny.deps.json
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\bin\Debug\net8.0\PanBinarny.runtimeconfig.json
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\bin\Debug\net8.0\PanBinarny.dll
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\bin\Debug\net8.0\PanBinarny.pdb
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.AssemblyInfoInputs.cache
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.AssemblyInfo.cs
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.csproj.CoreCompileInputs.cache
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.dll
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\refint\PanBinarny.dll
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.pdb
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\PanBinarny.genruntimeconfig.cache
+E:\Archiwum Y\Szkoła\ADWiM\task002-mrbinary-DanielMierzwa-main\task002-mrbinary-DanielMierzwa-main\obj\Debug\net8.0\ref\PanBinarny.dll
