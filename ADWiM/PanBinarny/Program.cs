@@ -59,6 +59,7 @@ namespace PanBinarny
             }
 
             if (!int.TryParse(inp, out int x))
+
             {
                 Console.WriteLine("Wprowadzona wartość nie jest liczbą całkowitą ");
             }
@@ -71,4 +72,5 @@ namespace PanBinarny
 
         }
     }
-}
+
+}//xd
