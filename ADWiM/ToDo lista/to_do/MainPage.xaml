@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="to_do.MainPage"
+             xmlns:models="clr-namespace:to_do.Models"
+             xmlns:vm="clr-namespace:to_do.ViewModel"
+             x:DataType="vm:MainViewModel">
+    <!--xlmns:models mówi gdzie znajduja się pliki z definicją klas TaskObject i TaskGroup -->
+
+    <ScrollView Padding="20">
+        <VerticalStackLayout>
+            <Button Text="Dodaj" Command="{Binding OpenPopUpCommand}" HeightRequest="50"/>
+            <CollectionView ItemsSource="{Binding TaskGroups}"
+                        IsGrouped="True">
+                <CollectionView.Header>
+                    <Label Text="{Binding Title}" FontSize="Large"/>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <!--jak będzie wyglądać pojedyńczy element z zadaniem-->
+                    <DataTemplate x:DataType="models:TaskObject">
+
+                        <SwipeView>
+
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Reveal">
+
+                                    <SwipeItem
+                            Text="Usuń"
+                            BackgroundColor="Red"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteCommand}"
+                            CommandParameter="{Binding .}"/>
+
+                                    <SwipeItem
+                            Text="Edytuj"
+                            BackgroundColor="Orange"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EditCommand}"
+                            CommandParameter="{Binding .}"/>
+
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <SwipeView.LeftItems>
+                                <SwipeItems Mode="Execute">
+                                    <SwipeItem 
+                                Text="{Binding Message}"
+                                BackgroundColor="green"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SetDoneCommand}"
+                                CommandParameter="{Binding .}"/>
+                                </SwipeItems>
+
+                            </SwipeView.LeftItems>
+
+                            <Grid Padding="10" ColumnDefinitions="*,8*"  BackgroundColor="Purple" >
+                                <Image>
+                                    <Image.Source>
+                                        <FontImageSource Glyph="🚩"
+                         Size="24"/>
+                                    </Image.Source>
+                                </Image>
+                                <Label Text="{Binding Name}" 
+                                   Grid.Column="1"
+                                   FontSize="20" 
+                                   
+                                   Padding="20"/>
+                            </Grid>
+
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.GroupHeaderTemplate>
+                    <!--jak będzie wyglądać nagłówek sekcji-->
+                    <DataTemplate x:DataType="models:TaskGroup">
+                        <Label Text="{Binding GroupName}" FontSize="Medium" FontAttributes="Bold"/>
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
+                <CollectionView.EmptyView>
+                    <VerticalStackLayout>
+                        <Image>
+                            <Image.Source>
+                                <FontImageSource Glyph="✖"
+                         Size="350"
+                         Color="Gray"/>
+                            </Image.Source>
+                        </Image>
+                        <Label Text="Brak zadań"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    </VerticalStackLayout>
+
+                </CollectionView.EmptyView>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

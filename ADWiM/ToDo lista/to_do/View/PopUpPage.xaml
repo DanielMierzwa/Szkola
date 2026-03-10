@@ -1,0 +1,45 @@
+<toolkit:Popup
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="to_do.View.PopUpPage"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    x:TypeArguments="system:String">
+    <!--
+    zamiast ContentPage jak w MainPage.xaml, używamy toolkit:Popup, który jest częścią .NET MAUI Community Toolkit.
+    trzeba dodać parę magicznych linijek
+        xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"<- to jest taki import z python, który importuje .NET MAUI Community Toolkit
+        xmlns:system="clr-namespace:System;assembly=mscorlib"<- to też jest jakiś import potrzebny do linjki niżej
+        x:TypeArguments="system:String"<- ta linijka definiuje jaki typ danych popup będzie zwracać
+    -->
+
+    <Grid Padding="20" 
+          ColumnDefinitions="200,200"
+          RowDefinitions="50,50,50"
+          BackgroundColor="White" 
+          WidthRequest="450"
+          HeightRequest="250"
+          RowSpacing="20"
+          >
+
+        <Label Text="Tytuł zadania" 
+               FontSize="20"
+               Grid.ColumnSpan="2"/>
+
+        <Entry x:Name="TaskEntry" 
+               Placeholder="Wpisz tytuł zadania"
+               Grid.ColumnSpan="2"
+               Grid.Row="1"
+               TextColor="Black"/>
+
+        <Button Text="{Binding AddButtonText}" 
+                Clicked="Add_Button_Clicked"
+                Grid.Row="2"/>
+        <Button Text="Anuluj" 
+                Clicked="Cancel_Button_Clicked"
+                Grid.Row="2"
+                Grid.Column="1"/>
+
+    </Grid>
+
+</toolkit:Popup>

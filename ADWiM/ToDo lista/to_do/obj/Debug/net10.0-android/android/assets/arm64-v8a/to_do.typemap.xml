@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="to_do" mvid="7520208924bb4dc2a0b8ea64d2fc85ab">
+  <java-to-managed>
+    <entry java-name="crc647d099a2967eb0f3b/MainActivity" managed-name="to_do.MainActivity, to_do" managed-type-token-id="33554454" />
+    <entry java-name="crc647d099a2967eb0f3b/MainApplication" managed-name="to_do.MainApplication, to_do" managed-type-token-id="33554455" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc647d099a2967eb0f3b/MainActivity" managed-name="to_do.MainActivity, to_do" managed-type-token-id="33554454" />
+    <entry java-name="crc647d099a2967eb0f3b/MainApplication" managed-name="to_do.MainApplication, to_do" managed-type-token-id="33554455" />
+  </managed-to-java>
+</api>
