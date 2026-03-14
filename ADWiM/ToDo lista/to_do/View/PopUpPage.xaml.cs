@@ -7,12 +7,12 @@ namespace to_do.View
 {
     public partial class PopUpPage : Popup<string>
     {
-        public string AddButtonText;
+        public string AddButtonText { get; set; }
         private bool editing;
         public PopUpPage()
         {
             InitializeComponent();
-            AddButtonText = "Dodaj";
+            AddButton.Text = "Dodaj";
             OnPropertyChanged(nameof(AddButtonText));
             editing = false;
 
@@ -21,7 +21,8 @@ namespace to_do.View
             //to jest wersja na okienko edycyjne
         {
             InitializeComponent();
-            AddButtonText = "Edytuj";
+            BindingContext = this;
+            AddButton.Text = "Edytuj";
             OnPropertyChanged(nameof(AddButtonText));
             editing = true;
             TaskEntry.Text = task.Name;

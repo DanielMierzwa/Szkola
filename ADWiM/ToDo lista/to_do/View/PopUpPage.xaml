@@ -13,17 +13,18 @@
         x:TypeArguments="system:String"<- ta linijka definiuje jaki typ danych popup będzie zwracać
     -->
 
-    <Grid Padding="20" 
+    <Grid HorizontalOptions="Center"
           ColumnDefinitions="200,200"
-          RowDefinitions="50,50,50"
+          RowDefinitions="50,50,50,50"
           BackgroundColor="White" 
-          WidthRequest="450"
+          WidthRequest="350"
           HeightRequest="250"
           RowSpacing="20"
           >
 
         <Label Text="Tytuł zadania" 
                FontSize="20"
+               TextColor="Black"
                Grid.ColumnSpan="2"/>
 
         <Entry x:Name="TaskEntry" 
@@ -32,7 +33,8 @@
                Grid.Row="1"
                TextColor="Black"/>
 
-        <Button Text="{Binding AddButtonText}" 
+        <Button Text="Dodaj zadanie" 
+                x:Name="AddButton"
                 Clicked="Add_Button_Clicked"
                 Grid.Row="2"/>
         <Button Text="Anuluj" 

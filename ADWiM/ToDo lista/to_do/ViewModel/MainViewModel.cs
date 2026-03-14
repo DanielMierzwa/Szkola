@@ -9,11 +9,24 @@ using System.Linq;
 using System.Text;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
 using to_do.View;
 using to_do.Models;//tutaj jest import TaskObject i TaskGroup
 
 namespace to_do.ViewModel
 {
+    public class TaskTemplateSelector : DataTemplateSelector
+    {
+        public DataTemplate DoneTemplate { get; set; }
+        public DataTemplate UndoneTemplate { get; set; }
+        protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+        {
+            var task = (TaskObject)item;
+            if (task.IsDone)
+                return DoneTemplate;
+            return UndoneTemplate;
+        }
+    }// to jest klasa która będzie wybierać czy postawić przy zadaniu chorągiewkę czy ptaszek
     public partial class MainViewModel : ObservableObject
     {
 

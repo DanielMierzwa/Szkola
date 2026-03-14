@@ -6,66 +6,131 @@
              xmlns:vm="clr-namespace:to_do.ViewModel"
              x:DataType="vm:MainViewModel">
     <!--xlmns:models mówi gdzie znajduja się pliki z definicją klas TaskObject i TaskGroup -->
+    <ContentPage.Resources>
+        <DataTemplate x:DataType="models:TaskObject"
+                      x:Key="DoneTaskTemplate"><!--Wersja itemTemplate dla zrobionego zadania-->
 
-    <ScrollView Padding="20">
-        <VerticalStackLayout>
-            <Button Text="Dodaj" Command="{Binding OpenPopUpCommand}" HeightRequest="50"/>
-            <CollectionView ItemsSource="{Binding TaskGroups}"
-                        IsGrouped="True">
-                <CollectionView.Header>
-                    <Label Text="{Binding Title}" FontSize="Large"/>
-                </CollectionView.Header>
-                <CollectionView.ItemTemplate>
-                    <!--jak będzie wyglądać pojedyńczy element z zadaniem-->
-                    <DataTemplate x:DataType="models:TaskObject">
+            <SwipeView Margin="10">
 
-                        <SwipeView>
+                <SwipeView.RightItems>
+                    <SwipeItems Mode="Reveal">
 
-                            <SwipeView.RightItems>
-                                <SwipeItems Mode="Reveal">
-
-                                    <SwipeItem
+                        <SwipeItem
                             Text="Usuń"
                             BackgroundColor="Red"
                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteCommand}"
                             CommandParameter="{Binding .}"/>
 
-                                    <SwipeItem
+                        <SwipeItem
                             Text="Edytuj"
                             BackgroundColor="Orange"
                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EditCommand}"
                             CommandParameter="{Binding .}"/>
 
-                                </SwipeItems>
-                            </SwipeView.RightItems>
-                            <SwipeView.LeftItems>
-                                <SwipeItems Mode="Execute">
-                                    <SwipeItem 
-                                Text="{Binding Message}"
-                                BackgroundColor="green"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SetDoneCommand}"
-                                CommandParameter="{Binding .}"/>
-                                </SwipeItems>
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <SwipeView.LeftItems>
+                    <SwipeItems Mode="Execute">
+                        <SwipeItem 
+                            Text="{Binding Message}"
+                            BackgroundColor="Orange"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SetDoneCommand}"
+                            CommandParameter="{Binding .}"/>
+                    </SwipeItems>
 
-                            </SwipeView.LeftItems>
+                </SwipeView.LeftItems>
 
-                            <Grid Padding="10" ColumnDefinitions="*,8*"  BackgroundColor="Purple" >
-                                <Image>
-                                    <Image.Source>
-                                        <FontImageSource Glyph="🚩"
-                         Size="24"/>
-                                    </Image.Source>
-                                </Image>
-                                <Label Text="{Binding Name}" 
-                                   Grid.Column="1"
-                                   FontSize="20" 
-                                   
-                                   Padding="20"/>
-                            </Grid>
+                <Grid Padding="10" ColumnDefinitions="*,8*" RowDefinitions="80,10" BackgroundColor="{StaticResource Primary}" >
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource Glyph="✅"
+                                     Size="24"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="{Binding Name}" 
+                           Grid.Column="1"
+                           FontSize="20" 
+                           Padding="20"/>
+                    <Line X1="0" 
+                          Y1="0" 
+                          X2="280" 
+                          Y2="0" 
+                          Stroke="{StaticResource Gray300Brush}" 
+                          StrokeThickness="3"
+                          HorizontalOptions="Start" 
+                          Grid.Row="1"/>
+                </Grid>
 
-                        </SwipeView>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
+            </SwipeView>
+        </DataTemplate>
+        <DataTemplate x:DataType="models:TaskObject"
+              x:Key="UndoneTaskTemplate">
+            <!--Wersja itemTemplate dla nie zrobionego zadania-->
+
+            <SwipeView Margin="10">
+
+                <SwipeView.RightItems>
+                    <SwipeItems Mode="Reveal">
+
+                        <SwipeItem  Text="Usuń"
+                                    BackgroundColor="Red"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteCommand}"
+                                    CommandParameter="{Binding .}"/>
+
+                        <SwipeItem      Text="Edytuj"
+                                        BackgroundColor="Orange"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EditCommand}"
+                                        CommandParameter="{Binding .}"/>
+
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <SwipeView.LeftItems>
+                    <SwipeItems Mode="Execute">
+                        <SwipeItem 
+                            Text="{Binding Message}"
+                            BackgroundColor="green"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SetDoneCommand}"
+                            CommandParameter="{Binding .}"/>
+                    </SwipeItems>
+
+                </SwipeView.LeftItems>
+
+                <Grid Padding="10" ColumnDefinitions="*,8*" RowDefinitions="80,10"  BackgroundColor="{StaticResource Primary}" >
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource Glyph="🚩"
+                             Size="24"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="{Binding Name}" 
+                           Grid.Column="1"
+                           FontSize="20" 
+                           Padding="20"/>
+                    <Line X1="0" 
+                          Y1="0" 
+                          X2="280" 
+                          Y2="0" 
+                          Stroke="{StaticResource Gray300Brush}" 
+                          StrokeThickness="3"
+                          HorizontalOptions="Start" 
+                          Grid.Row="1"/>
+                </Grid>
+
+            </SwipeView>
+        </DataTemplate>
+        <vm:TaskTemplateSelector x:Key="TaskSelector"
+                                 DoneTemplate="{StaticResource DoneTaskTemplate}"
+                                 UndoneTemplate="{StaticResource UndoneTaskTemplate}"/>
+    </ContentPage.Resources>
+    <ScrollView Padding="20">
+        <VerticalStackLayout>
+            
+            <CollectionView ItemsSource="{Binding TaskGroups}"
+                            IsGrouped="True"
+                            ItemTemplate="{StaticResource TaskSelector}">
+                <CollectionView.Header>
+                    <Label Text="{Binding Title}" FontSize="Large"/>
+                </CollectionView.Header>
                 <CollectionView.GroupHeaderTemplate>
                     <!--jak będzie wyglądać nagłówek sekcji-->
                     <DataTemplate x:DataType="models:TaskGroup">
@@ -88,7 +153,9 @@
 
                 </CollectionView.EmptyView>
             </CollectionView>
+            <Button Text="Dodaj" Command="{Binding OpenPopUpCommand}" HeightRequest="50" BackgroundColor="{StaticResource Primary}"/>
         </VerticalStackLayout>
+        
     </ScrollView>
 
 </ContentPage>
