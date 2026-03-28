@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\peselcoder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:peselcoder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\J\u00F3zef\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\viewmodels\\decoderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:viewmodels\\decoderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\models\\codersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:models\\codersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\J\u00F3zef\\.nuget\\packages\\communitytoolkit.maui\\14.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\viewmodels\\encoderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:viewmodels\\encoderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\models\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:models\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\encoderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:encoderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\encoderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:encoderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|f:\\archiwum y\\szkola\\adwim\\peselcoder\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11162BD-6017-EEBB-0710-03D44B11E025}|peselCoder.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\f0dab4c9e4eab48981448730b2789fcef2198dc3\\MainPage.xaml.xsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\fd493f9fe53d65e637ab7961bd35ff6e24dd4b33\\MainPage.xaml.xsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 268,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAHgCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-28T19:14:21.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net10.0-windows10.0.19041.0\\win-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:04:57.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DecoderViewModel.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\ViewModels\\DecoderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DecoderViewModel.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\ViewModels\\DecoderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DecoderViewModel.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:36:26.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoderSingleton.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\CoderSingleton.cs",
+              "RelativeDocumentMoniker": "Models\\CoderSingleton.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\CoderSingleton.cs",
+              "RelativeToolTip": "Models\\CoderSingleton.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:29:38.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "peselCoder",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\peselCoder.csproj",
+              "RelativeDocumentMoniker": "peselCoder.csproj",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\peselCoder.csproj*",
+              "RelativeToolTip": "peselCoder.csproj*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T18:40:32.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:45:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T07:28:01.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Data.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\Data.cs",
+              "RelativeDocumentMoniker": "Models\\Data.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\Data.cs",
+              "RelativeToolTip": "Models\\Data.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:53:35.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\.nuget\\packages\\communitytoolkit.maui\\14.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\.nuget\\packages\\communitytoolkit.maui\\14.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-28T18:49:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EncoderViewModel.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\ViewModels\\EncoderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EncoderViewModel.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\ViewModels\\EncoderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EncoderViewModel.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwEsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:29:15.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Human.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\Human.cs",
+              "RelativeDocumentMoniker": "Models\\Human.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\Models\\Human.cs",
+              "RelativeToolTip": "Models\\Human.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:48:10.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EncoderPage.xaml",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\EncoderPage.xaml",
+              "RelativeDocumentMoniker": "EncoderPage.xaml",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\EncoderPage.xaml",
+              "RelativeToolTip": "EncoderPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T16:28:50.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T16:36:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EncoderPage.xaml.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\EncoderPage.xaml.cs",
+              "RelativeDocumentMoniker": "EncoderPage.xaml.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\EncoderPage.xaml.cs",
+              "RelativeToolTip": "EncoderPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:30:43.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T16:40:30.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:36:36.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "F:\\Archiwum Y\\Szkola\\ADWiM\\peselCoder\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:57:04.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.xsg.cs",
+              "DocumentMoniker": "C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\f0dab4c9e4eab48981448730b2789fcef2198dc3\\MainPage.xaml.xsg.cs",
+              "ToolTip": "C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\f0dab4c9e4eab48981448730b2789fcef2198dc3\\MainPage.xaml.xsg.cs[Tylko do odczytu]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:59:18.385Z",
+              "EditorCaption": "[Tylko do odczytu]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml.xsg.cs",
+              "DocumentMoniker": "C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\fd493f9fe53d65e637ab7961bd35ff6e24dd4b33\\MainPage.xaml.xsg.cs",
+              "ToolTip": "C:\\Users\\4d_1\\AppData\\Local\\Temp\\.vsdbgsrc\\fd493f9fe53d65e637ab7961bd35ff6e24dd4b33\\MainPage.xaml.xsg.cs[Tylko do odczytu]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:01:47.741Z",
+              "EditorCaption": "[Tylko do odczytu]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="peselCoder.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:vm="clr-namespace:peselCoder.ViewModels"
+    x:Name="xDecodingPage"
+    x:DataType="vm:DecoderViewModel"
+    Padding="10"
+    Title="Dekoder">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="DescLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="WidthRequest" Value="250"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+            </Style>
+        </ResourceDictionary>
+        <ResourceDictionary>
+            <Style x:Key="DataLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="WidthRequest" Value="380"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="TextColor" Value="{StaticResource PrimaryDarkText}"/>
+             </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <Grid RowDefinitions="200,90,*" ColumnDefinitions="*, *" VerticalOptions="FillAndExpand">
+            <Grid Grid.Column="0" RowDefinitions="*, Auto">
+                <VerticalStackLayout Grid.Row="0" IsVisible="{Binding Decoded}">
+                    <HorizontalStackLayout>
+                        <Label Style="{StaticResource DescLabel}" Text="Płeć:" />
+                        <Label Style="{StaticResource DataLabel}" Text="{Binding Gender}" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label Style="{StaticResource DescLabel}" Text="Data urodzenia:" />
+                        <Label Style="{StaticResource DataLabel}" Text="{Binding BirthDate}" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label Style="{StaticResource DescLabel}" Text="Wiek:" />
+                        <Label Style="{StaticResource DataLabel}" Text="{Binding Age}" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label Style="{StaticResource DescLabel}" Text="Do urodzin pozostało:" />
+                        <Label Style="{StaticResource DataLabel}" Text="{Binding NextBirthdayDays}" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+                
+            </Grid>
+            <HorizontalStackLayout Grid.Row="1"
+                       IsVisible="{Binding IconsVisibilty}"
+                       HorizontalOptions="Start" 
+                       Margin="20" 
+                       VerticalOptions="Center">
+
+                 <Image Source="{Binding GenderIconSource}"/>
+                <Image Source="{Binding IconSource}">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="{Binding IconColor}"/>
+                    </Image.Behaviors>
+                </Image>
+                
+                <Label Text="{Binding PeselValidMessage}"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Grid.Row="2" VerticalOptions="End">
+            <Button Text="Dekoduj" IsEnabled="{Binding DecodeButtonEnabled}" Command="{ Binding DecodePeselCommand}"/>
+            <Entry Placeholder="Podaj numer PESEL" Text="{Binding Pesel}" WidthRequest="500"/>
+        </HorizontalStackLayout>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

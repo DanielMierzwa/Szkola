@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="peselCoder.EncoderPage"
+             Title="EncoderPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="20">
+            <VerticalStackLayout>
+                <Label Text="Data urodzenia" />
+                <DatePicker
+                    Date="{Binding BirthDate}"
+                    MaximumDate="{Binding Today}" />
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Label Text="Płeć" />
+                <Picker
+                    Title="Wybierz płeć"
+                    ItemsSource="{Binding Genders}"
+                    SelectedItem="{Binding SelectedGender}"
+                    TextColor="Black"/>
+            </VerticalStackLayout>
+            <HorizontalStackLayout Spacing="10">
+
+                <Button
+                    Text="Generuj PESEL"
+                    Command="{Binding GeneratePeselCommand}"
+                    IsEnabled="{Binding CanGenerate}" 
+                    HorizontalOptions="FillAndExpand"/>
+
+                <Button
+                    Text="Kopiuj"
+                    Command="{Binding CopyPeselCommand}"
+                    IsEnabled="{Binding CanCopy}"
+                    HorizontalOptions="FillAndExpand"/>
+            </HorizontalStackLayout>
+            <Border
+                IsVisible="{Binding PeselVisible}"
+                Padding="20"
+                BackgroundColor="#F2F2F2">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10" >
+
+                    <Label
+                        Text="Wygenerowany PESEL:"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        Text="{Binding Pesel}"
+                        FontSize="22"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"
+                        TextColor="Black"/>
+
+                </VerticalStackLayout>
+
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
