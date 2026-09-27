@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="Memo.Views.GamePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:Memo.Models"
+    Title="Memo"
+    BackgroundColor="#F5F7FB">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
+
+
+        <Grid
+            Grid.Row="0"
+            Padding="20,15"
+            ColumnDefinitions="*,*,*">
+
+            <VerticalStackLayout Grid.Column="0">
+
+                <Label
+                    Text="POZIOM"
+                    FontSize="11"
+                    TextColor="#94A3B8" />
+
+                <Label
+                    Text="{Binding DifficultyText}"
+                    FontSize="17"
+                    FontAttributes="Bold"
+                    TextColor="#1E293B" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Grid.Column="1"
+                HorizontalOptions="Center">
+
+                <Label
+                    Text="CZAS"
+                    FontSize="11"
+                    TextColor="#94A3B8"
+                    HorizontalTextAlignment="Center" />
+
+                <Label
+                    Text="{Binding TimeText}"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="#4F46E5"
+                    HorizontalTextAlignment="Center" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Grid.Column="2"
+                HorizontalOptions="End">
+
+                <Label
+                    Text="PRÓBY"
+                    FontSize="11"
+                    TextColor="#94A3B8"
+                    HorizontalTextAlignment="End" />
+
+                <Label
+                    Text="{Binding Attempts}"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="#1E293B"
+                    HorizontalTextAlignment="End" />
+
+            </VerticalStackLayout>
+
+        </Grid>
+        <CollectionView
+            Grid.Row="2"
+            ItemsSource="{Binding Cards}"
+            SelectionMode="None"
+            Margin="15,0">
+
+            <CollectionView.ItemsLayout>
+
+                <GridItemsLayout
+                    Orientation="Vertical"
+                    Span="4"
+                    HorizontalItemSpacing="10"
+                    VerticalItemSpacing="10" />
+
+            </CollectionView.ItemsLayout>
+
+
+            <CollectionView.ItemTemplate>
+
+                <DataTemplate
+                    x:DataType="models:Card">
+
+                    <Border
+                        StrokeThickness="2"
+                        BackgroundColor="{Binding BackgroundColor}"
+                        HeightRequest="120"
+                        WidthRequest="120"
+                        StrokeShape="RoundRectangle 14"
+                        Padding="4">
+
+                        <ImageButton
+                            Source="{Binding ImageSource}"
+                            Command="{Binding SelectCommand}"
+                            BackgroundColor="Transparent"
+                            Aspect="AspectFill"
+                            IsEnabled="{Binding CanSelect}" />
+
+                    </Border>
+
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+
+        <HorizontalStackLayout
+            Grid.Row="3"
+            HorizontalOptions="Center"
+            Spacing="12"
+            Padding="20,15">
+
+            <Button
+                Text="Nowa gra"
+                Command="{Binding RestartCommand}"
+                Padding="20,10" />
+
+            <Button
+                Text="Menu"
+                Command="{Binding BackToMenuCommand}"
+                Padding="20,10" />
+
+        </HorizontalStackLayout>
+
+
+        <Grid
+            Grid.RowSpan="4"
+            IsVisible="{Binding GameFinished}"
+            Padding="30">
+
+            <Border
+                BackgroundColor="White"
+                StrokeShape="RoundRectangle 24"
+                VerticalOptions="Center"
+                Padding="25">
+
+                <VerticalStackLayout
+                    Spacing="18">
+
+
+                    <Label
+                        Text="Koniec gry!"
+                        FontSize="30"
+                        HorizontalOptions="Center"
+                        TextColor="Black" />
+
+                    <Label
+                        Text="{Binding ResultTimeText}"
+                        FontSize="20"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        Text="{Binding ResultAttemptsText}"
+                        FontSize="20"
+                        HorizontalOptions="Center"/>
+
+                    <Button
+                        Text="Zagraj ponownie"
+                        Command="{Binding RestartCommand}"
+                        HeightRequest="55" />
+
+                    <Button
+                        Text="Wróć do menu"
+                        Command="{Binding BackToMenuCommand}"
+                        BackgroundColor="Gray"
+                        HeightRequest="55" />
+
+                </VerticalStackLayout>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FF.Views.SettingsPage"
+             xmlns:vm="clr-namespace:FF.ViewModels"
+             x:DataType="vm:MainViewModel"
+             Title="SettingsPage">
+    <VerticalStackLayout>
+        <Border Margin="10" StrokeThickness="2">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="25"/>
+            </Border.StrokeShape>
+            <VerticalStackLayout HorizontalOptions="Fill" Margin="0" Padding="0">
+                <Label Text="{Binding Name}" 
+                       FontAttributes="Bold, Italic" 
+                       HorizontalOptions="Fill" 
+                       FontSize="30" 
+                       BackgroundColor="DarkViolet"
+                       Padding="10"
+                       Margin="0"/>
+                <VerticalStackLayout Padding="15" Margin="0">
+                    <Label Text="a"/>
+                    <Slider Value="{Binding A, Mode=TwoWay}" Minimum="-100" Maximum="100"/>
+                    <Entry Text="{Binding A}"/>
+                    <Label Text="b"/>
+                    <Slider Value="{Binding B, Mode=TwoWay}" Minimum="-100" Maximum="100"/>
+                    <Entry Text="{Binding B}"/>
+                    <Label Text="c"/>
+                    <Slider Value="{Binding C, Mode=TwoWay}" Minimum="-100" Maximum="100"/>
+                    <Entry Text="{Binding C}"/>
+
+                    <Label Text="Dziedzina:"/>
+                    <HorizontalStackLayout VerticalOptions="Center">
+                        <Label Text="[" HeightRequest="30" FontSize="20"/>
+                        <Entry Text="{Binding RangeLeft}"/>
+                        <Label Text=";" HeightRequest="30" FontSize="20"/>
+                        <Entry Text="{Binding RangeRight}"/>
+                        <Label Text="]" HeightRequest="30" FontSize="20"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+                
+            </VerticalStackLayout>
+        </Border>
+        
+    </VerticalStackLayout>
+</ContentPage>

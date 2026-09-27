@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\views\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\views\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\views\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\views\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\5d_1\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.101\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\memo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\memo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|c:\\users\\j\u00F3zef\\documents\\github\\5d-task16-memoapp-danielmierzwa\\memo\\memo\\models\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C032F-9C43-620B-3354-120C555E4C3C}|Memo\\Memo.csproj|solutionrelative:memo\\models\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Memo\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\MauiProgram.cs",
+              "RelativeToolTip": "Memo\\MauiProgram.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:24:30.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Memo\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\AppShell.xaml.cs",
+              "RelativeToolTip": "Memo\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:24:12.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Memo\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\AppShell.xaml",
+              "RelativeToolTip": "Memo\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T10:24:06.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Memo\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\App.xaml.cs",
+              "RelativeToolTip": "Memo\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:23:58.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\App.xaml",
+              "RelativeDocumentMoniker": "Memo\\App.xaml",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\App.xaml",
+              "RelativeToolTip": "Memo\\App.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T10:23:50.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Memo\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Memo\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:21:56.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "Memo\\Views\\GamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\GamePage.xaml.cs",
+              "RelativeToolTip": "Memo\\Views\\GamePage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:21:51.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\GamePage.xaml",
+              "RelativeDocumentMoniker": "Memo\\Views\\GamePage.xaml",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\GamePage.xaml",
+              "RelativeToolTip": "Memo\\Views\\GamePage.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAALEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T09:54:03.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "Memo\\ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "Memo\\ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAALIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T09:53:22.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Memo\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Memo\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T09:42:55.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\5d_1\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.101\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\5d_1\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.101\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\5d_1\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.101\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\5d_1\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.101\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAvwHECAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-15T10:30:42.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Memo\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Memo\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T09:53:10.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "Memo\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Models\\Card.cs",
+              "RelativeToolTip": "Memo\\Models\\Card.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T09:52:13.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Memo.csproj",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Memo.csproj",
+              "RelativeDocumentMoniker": "Memo\\Memo.csproj",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Memo.csproj",
+              "RelativeToolTip": "Memo\\Memo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-15T10:26:30.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Memo\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "Memo\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T09:52:59.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Models\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "Memo\\Models\\DifficultyLevel.cs",
+              "ToolTip": "C:\\Users\\J\u00F3zef\\Documents\\GitHub\\5d-task16-memoapp-danielmierzwa\\Memo\\Memo\\Models\\DifficultyLevel.cs",
+              "RelativeToolTip": "Memo\\Models\\DifficultyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T09:52:31.122Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

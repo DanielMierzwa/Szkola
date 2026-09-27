@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+            xmlns:Behaviors="clr-namespace:MauiApp1.Behaviors"  
+            x:Class="MauiApp1.MainPage">  
+
+   <ScrollView>  
+       <VerticalStackLayout  
+           Padding="30,0"  
+           Spacing="25">  
+           <Entry Placeholder="Waga [kg]" Text="{Binding Mass}">  
+               <Entry.Behaviors>  
+                   <Behaviors:NumericOnlyBehavior />  
+               </Entry.Behaviors>  
+           </Entry>
+            <Entry Placeholder="Wzrost [cm]" Text="{Binding Height}">
+                <Entry.Behaviors>
+                    <Behaviors:NumericOnlyBehavior />
+                </Entry.Behaviors>
+            </Entry>  
+           <Button Text="Oblicz" 
+                   Command="{Binding GoToResultsCommand}"
+                   IsEnabled="{Binding AbleToSubmit}"/>  
+       </VerticalStackLayout>  
+   </ScrollView>  
+
+</ContentPage>

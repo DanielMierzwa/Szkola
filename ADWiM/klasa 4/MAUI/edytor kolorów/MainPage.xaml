@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kolorki.MainPage">
+
+    <Grid RowSpacing="25" Padding="30"
+          RowDefinitions="300,Auto,Auto" ColumnDefinitions="*">
+        <Rectangle x:Name="rectangle" Grid.Row="0" Fill="Black" />
+        <Grid Grid.Row="1" 
+              ColumnDefinitions="*,25" 
+              ColumnSpacing="10"
+              RowDefinitions="Auto, Auto,Auto,Auto">
+            <Slider x:Name="sliderR" Grid.Row="1" ValueChanged="sliderR_ValueChanged" />
+            <Label x:Name="labelR" TextColor="Red" Text="0" Grid.Row="1" Grid.Column="1"/>
+            <Slider x:Name="sliderG" Grid.Row="2" ValueChanged="sliderG_ValueChanged"/>
+            <Label x:Name="labelG" TextColor="Green" Text="0" Grid.Row="2" Grid.Column="1"/>
+            <Slider x:Name="sliderB" Grid.Row="3" ValueChanged="sliderB_ValueChanged"/>
+            <Label x:Name="labelB" TextColor="Blue" Text="0" Grid.Row="3" Grid.Column="1"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="0" ColumnDefinitions="50,Auto,Auto" RowDefinitions="*">
+            <Button Text="Reset" Grid.Row="2" Grid.Column="0" Clicked="reset_color"/>
+            <Button Text="Losuj" Grid.Row="1" Grid.Column="1" Clicked="random_color_set"/>
+        </Grid>
+        
+    </Grid>
+
+</ContentPage>
